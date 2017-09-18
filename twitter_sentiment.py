@@ -1,11 +1,11 @@
 import tweepy
 from textblob import TextBlob
 #copied from app.twitter after making your own api
-consumer_key =	'zFjG7gIOnaGBnGxAuBMrA6BE9'
-consumer_secret = 	'v8ICK5l4s9xs8XbLs8ZS00D4WlWrmm2O23ZsmuhkMGYdGUbB9u'
+consumer_key =	'%%%%%%naGBnGxAuBMrA6BE9'
+consumer_secret = 	'%%%%%%bLs8ZS00D4WlWrmm2O23ZsmuhkMGYdGUbB9u'
 
-access_token = '2420202108-kKMgtbYkmlhNdDEq9UtQ6FEMQNUNlW7nJeHI0bc'
-access_token_secret = 'tvZZLiN4LR9OMaypAPApx6kUo34n6zcI6l7QJkXyiKLIa'
+access_token = '%%%%%%%%%%%%UtQ6FEMQNUNlW7nJeHI0bc'
+access_token_secret = '%%%%%%%%%%%pAPApx6kUo34n6zcI6l7QJkXyiKLIa'
 
 #tweepy library access code
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -29,4 +29,4 @@ for tweet in public_tweets:
 
 
 #run using
-# python progmname.py on terminal 
+#python progmname.py on terminal 
